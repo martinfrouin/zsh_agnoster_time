@@ -12,4 +12,4 @@ Replace the `~/.oh-my-zsh/themes/agnoster.zsh-theme` file with the new one
 
 On the line 36, edit the `TIME_COLOR` value by a new one
 
-You can find the color values there: https://jonasjacek.github.io/colors/
+You can find the color values (Xterm Number) there: https://jonasjacek.github.io/colors/
