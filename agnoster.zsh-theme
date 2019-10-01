@@ -33,6 +33,7 @@
 # A few utility functions to make it easy and re-usable to draw segmented prompts
 
 CURRENT_BG='NONE'
+TIME_COLOR=210
 
 case ${SOLARIZED_THEME:-dark} in
     light) CURRENT_FG='white';;
@@ -202,7 +203,7 @@ prompt_dir() {
 }
 
 prompt_time() {
-  prompt_segment 208 black "%T"
+  prompt_segment $TIME_COLOR black "%T"
 }
 
 # Virtualenv: current working virtualenv
